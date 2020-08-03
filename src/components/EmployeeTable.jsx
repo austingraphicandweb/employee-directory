@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function EmployeeTable({employees, employeeSorted}) {
+function EmployeeTable({ employees, employeeSorted }) {
     return (
         <div className="EmployeeTable">
             <table>
