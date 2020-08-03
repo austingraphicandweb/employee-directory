@@ -16,7 +16,7 @@ class EmployeeDirectory extends Component {
 
     employeeFilter(value) {
         //starting at the 0 character i am going the length of what I type in and comparing it to the data which will be returned in the new array
-        const employees = this.state.employees.filter(employee => employee.name.slice(0, value.length).toLowerCase() === value.toLowerCase());
+        const employees = this.state.employees.filter(employee => employee.name.slice(0, value.length).toLowerCase() === value.toLowerCase() || employee.department.slice(0, value.length).toLowerCase() === value.toLowerCase());
         this.setState({ filteredEmployees: employees });
     }
     employeeSorted = (property) => {
