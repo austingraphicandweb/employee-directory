@@ -1,12 +1,13 @@
 import React from 'react';
 
 
-function EmployeeTable({employees}) {
+function EmployeeTable({employees, employeeSorted}) {
+    console.log(employeeSorted);
     return (
         <div className="EmployeeTable">
             <table>
                 <tr>
-                    <th>Name</th>
+                    <th onClick={() => employeeSorted()}>Name</th>
                     <th>Email</th>
                     <th>Phone</th>
                     <th>Department</th>
