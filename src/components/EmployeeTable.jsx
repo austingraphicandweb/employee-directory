@@ -2,7 +2,6 @@ import React from 'react';
 
 
 function EmployeeTable({employees, employeeSorted}) {
-    console.log(employeeSorted);
     return (
         <div className="EmployeeTable">
             <table>
