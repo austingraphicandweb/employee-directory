@@ -19,11 +19,11 @@ class EmployeeDirectory extends Component {
         const employees = this.state.employees.filter(employee => employee.name.slice(0, value.length).toLowerCase() === value.toLowerCase());
         this.setState({ filteredEmployees: employees });
     }
-    employeeSorted = () => {
+    employeeSorted = (property) => {
         //sorting from a to z. It is a public domain algorithm. If the data is out of order then it switches otherwise it does nothing.
         const employees = this.state.employees.sort(function (a, b) {
-            if (a.name.toLowerCase() < b.name.toLowerCase()) { return -1; }
-            if (a.name.toLowerCase() > b.name.toLowerCase()) { return 1; }
+            if (a[property].toLowerCase() < b[property].toLowerCase()) { return -1; }
+            if (a[property].toLowerCase() > b[property].toLowerCase()) { return 1; }
             return 0;
         })
         this.setState({ filteredEmployees: employees });

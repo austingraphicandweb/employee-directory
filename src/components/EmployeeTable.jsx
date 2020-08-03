@@ -7,10 +7,10 @@ function EmployeeTable({employees, employeeSorted}) {
         <div className="EmployeeTable">
             <table>
                 <tr>
-                    <th onClick={() => employeeSorted()}>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Department</th>
+                    <th onClick={() => employeeSorted('name')}>Name</th>
+                    <th onClick={() => employeeSorted('email')}>Email</th>
+                    <th onClick={() => employeeSorted('phone')}>Phone</th>
+                    <th onClick={() => employeeSorted('department')}>Department</th>
                 </tr>
                 {employees.map(employee => (
                     <tr>
