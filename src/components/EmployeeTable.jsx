@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function EmployeeTable(props) {
+function EmployeeTable({employees}) {
     return (
         <div className="EmployeeTable">
             <table>
@@ -11,7 +11,7 @@ function EmployeeTable(props) {
                     <th>Phone</th>
                     <th>Department</th>
                 </tr>
-                {props.employees.map(employee => (
+                {employees.map(employee => (
                     <tr>
                         <td>{employee.name}</td>
                         <td>{employee.email}</td>
@@ -23,3 +23,5 @@ function EmployeeTable(props) {
         </div>
     );
 }
+
+export default EmployeeTable;
