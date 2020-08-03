@@ -1,4 +1,135 @@
-[
-    {"name":"karen","email":"karen@email.com","phone":"404-656-7654","department":"marketing"},
-    {"name":"Joey","email":"joey@email.com","phone":"678-565-4554","department":"sales"}
+[{
+        "name": "karen",
+        "email": "karen@email.com",
+        "phone": "404-656-7654",
+        "department": "marketing"
+    },
+    {
+        "name": "Joey",
+        "email": "joey@email.com",
+        "phone": "678-565-4554",
+        "department": "sales"
+    }, {
+        "name": "Terry",
+        "email": "terry@email.com",
+        "phone": "404-200-4847",
+        "department": "marketing"
+    },
+    {
+        "name": "Jermaine",
+        "email": "jermaine@email.com",
+        "phone": "404-201-9060",
+        "department": "sales"
+    }, {
+        "name": "Keagan",
+        "email": "keagan@email.com",
+        "phone": "404-202-2709",
+        "department": "marketing"
+    },
+    {
+        "name": "Daphne",
+        "email": "daphne@email.com",
+        "phone": "404-205-8678",
+        "department": "sales"
+    }, {
+        "name": "Jacob",
+        "email": "jacob@email.com",
+        "phone": "404-206-8426",
+        "department": "marketing"
+    },
+    {
+        "name": "Tessa",
+        "email": "tessa@email.com",
+        "phone": "470-245-8344",
+        "department": "sales"
+    }, {
+        "name": "Mariana",
+        "email": "mariana@email.com",
+        "phone": "470-267-2475",
+        "department": "marketing"
+    },
+    {
+        "name": "Lilliana",
+        "email": "lilliana@email.com",
+        "phone": "470-377-3725",
+        "department": "sales"
+    }, {
+        "name": "Marianna",
+        "email": "marianna@email.com",
+        "phone": "470-793-6338",
+        "department": "marketing"
+    },
+    {
+        "name": "Damian",
+        "email": "damian@email.com",
+        "phone": "678-223-2774",
+        "department": "sales"
+    }, {
+        "name": "Sahib",
+        "email": "sahib@email.com",
+        "phone": "678-224-2164",
+        "department": "marketing"
+    },
+    {
+        "name": "Jannat",
+        "email": "jannat@email.com",
+        "phone": "678-229-3941",
+        "department": "sales"
+    }, {
+        "name": "Uwais",
+        "email": "uwais@email.com",
+        "phone": "678-239-5733",
+        "department": "marketing"
+    },
+    {
+        "name": "Brandan",
+        "email": "brandan@email.com",
+        "phone": "678-241-1873",
+        "department": "sales"
+    }, {
+        "name": "Avleen",
+        "email": "avleen@email.com",
+        "phone": "678-247-2586",
+        "department": "marketing"
+    },
+    {
+        "name": "Idris",
+        "email": "idris@email.com",
+        "phone": "678-264-2128",
+        "department": "sales"
+    }, {
+        "name": "Katya",
+        "email": "katya@email.com",
+        "phone": "678-265-4677",
+        "department": "marketing"
+    },
+    {
+        "name": "Arwel",
+        "email": "arwel@email.com",
+        "phone": "706-201-3676",
+        "department": "sales"
+    }, {
+        "name": "Donnell",
+        "email": "donnell@email.com",
+        "phone": "706-202-8389",
+        "department": "marketing"
+    },
+    {
+        "name": "Sumaiyah",
+        "email": "sumaiyah@email.com",
+        "phone": "706-206-5635",
+        "department": "sales"
+    }, {
+        "name": "Theodor",
+        "email": "theodor@email.com",
+        "phone": "706-208-5950",
+        "department": "marketing"
+    },
+    {
+        "name": "Peter",
+        "email": "peter@email.com",
+        "phone": "706-215-7382",
+        "department": "sales"
+    }
+
 ]
