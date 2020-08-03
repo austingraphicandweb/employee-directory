@@ -18,7 +18,7 @@ link to deployed application: https://austingraphicandweb.github.io/employee-dir
 
 
 ## Usage
-<i>This application lists employees with common information that is both similar and unique. Someone has the ability to go to the website and start typing into the seach bar specifics about an employee to look them up. This is using the sort feature provided by JavaScript. They also have the ability to filter by column as well. This means that if they want to list the employees by alphabetical order, for instance, then they can click on the table head 'name'.<i>
+<i>This application lists employees with common information that is both similar and unique. Someone has the ability to go to the website and start typing into the seach bar specifics about an employee to look them up. This is using the sort feature provided by JavaScript. They also have the ability to filter by column as well. This means that if they want to list the employees by alphabetical order, for instance, then they can click on the table head 'Name'.<i>
 <hr>
 
 ## Licensing
